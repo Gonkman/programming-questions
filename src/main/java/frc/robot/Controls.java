@@ -51,6 +51,8 @@ public final class Controls {
   public Controls() {
     bButton.whenPressed(new MoveDoubleSolenoid(Robot.pneumaticsSubsystem.solenoid, Value.kForward));
     bButton.whenReleased(new MoveDoubleSolenoid(Robot.pneumaticsSubsystem.solenoid, Value.kReverse));
+    aButton.whenPressed(new MoveDoubleSolenoid(Robot.pneumaticsSubsytem.Cruzsolenoid, Value.kForward));
+    aButton.whenPressed(new MoveDoubleSolenoid(Robot.pneumaticsSubsystem.Cruzsolenoid, Value.kRevers));
   }
 
   /**
