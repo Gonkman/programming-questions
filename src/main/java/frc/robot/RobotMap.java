@@ -45,4 +45,6 @@ public class RobotMap {
   /** The PCM channel to move the first double solenoid in the reverse direction. */
   public final static int doubleSolenoidReverseChannel = 2;
 
+   public final static int cruzSolenoidForwardChannel = 1
+   public final static int cruzSolenoidReverseChannel =2
 }
